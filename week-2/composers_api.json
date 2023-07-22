@@ -1,0 +1,47 @@
+{"composers": [
+    {
+    "composerId": 1001,
+    "firstName": "Ludwig",
+    "lastName": "van Beethoven"
+    },
+    {
+    "composerId": 1002,
+    "firstName": "Wolfgang",
+    "lastName": "Mozart"
+    },
+    {
+    "composerId": 1003,
+    "firstName": "Johann",
+    "lastName": "Bach"
+    },
+    {
+    "composerId": 1004,
+    "firstName": "Pyotr",
+    "lastName": "Tchaikovsky"
+    },
+    {
+    "composerId": 1005,
+    "firstName": "Claude",
+    "lastName": "Debussy"
+    },
+    {
+    "composerId": 1006,
+    "firstName": "Joseph",
+    "lastName": "Haydn"
+    },
+    {
+    "composerId": 1007,
+    "firstName": "Richard",
+    "lastName": "Wagner"
+    },
+    {
+    "composerId": 1008,
+    "firstName": "Frédéric",
+    "lastName": "Chopin"
+    },
+    {
+    "composerId": 1009,
+    "firstName": "Johannes",
+    "lastName": "Brahms"
+    }
+]}
