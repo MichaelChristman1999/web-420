@@ -35,17 +35,8 @@ const teamsAPI = require('./routes/Christman-teams-routes');
 const CONN =  'mongodb+srv://web420_user:s3cret2@bellevueuniversity.y9g9tgp.mongodb.net/web420DB';
 
 // Showing Server Connection Messages
-mongoose
-  .connect(CONN, {
-    useUnifiedTopology: true,
-    useNewUrlParser: true,
-  })
-  .then(() => {
-    console.log('Connection to WEB 420 MongoDB database was successful');
-  })
-  .catch((err) => {
-    console.log('MongoDB Error: ' + err.message);
-  });
+const mongoose = require('mongoose');
+mongoose.set('strictQuery', true);
 
 // Defining an object literal with named options.
 const options = {
