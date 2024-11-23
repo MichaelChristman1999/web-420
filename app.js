@@ -6,16 +6,17 @@
     Description: App.js file for WEB-420 coursework weeks 1-9
 */
 const express = require('express');
-const http = require('http');
-const swaggerUi = require('swagger-ui-express');
-const swaggerJsdoc = require('swagger-jsdoc');
-const mongoose = require('mongoose');
-
-// Creates a new variable named app and assigns it to  the express library.
 const app = express();
+const port = process.env.PORT || 3000;
 
-// Setting the port to 3000.
-const PORT = process.env.PORT || 3000;
+// Example root route
+app.get('/', (req, res) => {
+  res.send('Welcome to the homepage!');
+});
+
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
+});
 
 // Set the application to use express.json().
 app.use(express.json());
